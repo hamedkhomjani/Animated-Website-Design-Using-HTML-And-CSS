@@ -29,13 +29,17 @@
 }
 
 button {
-    color: azure;
+    color: rgb(255, 255, 255);
     padding: 10px 25px;
     border-radius: 30px;
-    background: aqua;
+    background: #1d5775;
     border: 1px solid azure;
     outline: none;
     cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05)
 }
 
 .content {
